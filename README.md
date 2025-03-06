@@ -56,9 +56,7 @@ The legal team wants to improve how long it takes to reply to customers and clos
 - Is there any relationship between Locations and the time it takes to close claims?
 - How does the time to close claims look like?
 
-![Food Claim EDA On Python Project Executive Summary (1)](https://github.com/mikeolaniyi/Food-Claim-Exploratory-Data-Analysis-on-Python/assets/120651356/70a1948a-057d-4895-b47c-f440c1418e81)
 
----
 
 ## Tools Used for Analysis
 - **Python (Pandas, Seaborn, Matplotlib, NumPy)**
