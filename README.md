@@ -1,6 +1,6 @@
 # Food Claim Exploratory Data Analysis on Python
 By Michael Michael Jeremiah
-![Food_claim](https://github.com/mikeolaniyi/Food-Claim-Exploratory-Data-Analysis-on-Python/assets/120651356/141bc6d3-6510-4303-a229-f0eb5a15d2c0)
+![Food_claim](https://github.com/manupriya00/EDA-Food-Claims/blob/main/EDA%20project%20image.avif)
 
 ### Table of Contents:
 
@@ -495,4 +495,4 @@ Notably, the Recife office location stands out with the highest number of outlie
 
 Thank you for taking out time to read through this project, kindly drop comments on your thoughts, suggestions etc.
 
-**By Michael Olaniyi Jeremiah**
+**MANISHA PRIYANKA KAKI**
