@@ -579,9 +579,6 @@ This project helped me strengthen my data cleaning, validation, and visualizatio
 
 ---
 
-Thank you for reviewing this project! Your feedback is appreciated.
-
-**MANISHA PRIYANKA KAKI**
 
 
 
