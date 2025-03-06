@@ -1,34 +1,102 @@
 # Food Claim Exploratory Data Analysis on Python
-EDA PROJECT BY **MANISHA PRIYANKA**
+
+## EDA PROJECT BY **MANISHA PRIYANKA**
+
 ![Food_claim](https://github.com/manupriya00/EDA-Food-Claims/blob/main/EDA%20project%20image.avif)
 
-### Table of Contents:
+---
 
+## Table of Contents:
+
+- [Introduction](#introduction)
 - [Business Background](#business-background)
 - [Business Problem](#business-problem)
+- [Business Goal](#business-goal)
 - [Business Questions](#business-questions)
-- [Data cleaning and validation](#data-cleaning-and-validation)
-- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Findings](#Findings)
-- [Recommendation](#Recommendation)
+- [Tools Used for Analysis](#tools-used-for-analysis)
+- [Data Analysis Process](#data-analysis-process)
+- [Data Exploration & Validation](#data-exploration--validation)
+- [Data Cleaning](#data-cleaning)
+- [Data Analysis & Visualization](#data-analysis--visualization)
+- [Findings](#findings)
+- [Recommendations](#recommendations)
+- [Insights & Conclusion](#insights--conclusion)
+- [Personal Reflection](#personal-reflection)
+- [Future Enhancements](#future-enhancements)
 
+---
 
-### Business Background
-Vivendo is a fast food chain in Brazil with over 200 outlets. Customers often claim compensation from the company for food poisoning. The legal team processes these claims. The legal team has offices in four locations. The legal team wants to improve how long it takes to reply to customers and close claims. The head of the legal department wants a report on how each location differs in the time it takes to close claims.
+## Introduction
+Vivendo is a fast food chain in Brazil with over 200 outlets. Customers often claim compensation from the company for food poisoning. The legal team processes these claims. The legal team has offices in four locations. The legal team wants to improve how long it takes to reply to customers and close claims.
 
+---
 
-### Business Problem:
+## Business Background
+Vivendo's legal team operates across four locations and is responsible for processing food poisoning claims. The team is looking for a data-driven approach to enhance its efficiency in handling claims.
+
+---
+
+## Business Problem
 The legal department is dealing with:
 - Inefficient customer response times.
 - Unanalyzed geographical differences in claim processing time.
-- Inadequate insights into claim closure duration
+- Inadequate insights into claim closure duration.
 
+The head of the legal department wants a report on how each location differs in the time it takes to close claims.
 
-### Business Questions:
+---
+
+## Business Goal
+The legal team wants to improve how long it takes to reply to customers and close claims.
+
+---
+
+## Business Questions
 - How many customers are there in each location?
 - Is there any relationship between Locations and the time it takes to close claims?
-- How does the time to close claims looks like?
+- How does the time to close claims look like?
 
+![Food Claim EDA On Python Project Executive Summary (1)](https://github.com/mikeolaniyi/Food-Claim-Exploratory-Data-Analysis-on-Python/assets/120651356/70a1948a-057d-4895-b47c-f440c1418e81)
+
+---
+
+## Tools Used for Analysis
+- **Python (Pandas, Seaborn, Matplotlib, NumPy)**
+- **Excel**
+- **Power BI**
+- **Power Query**
+
+---
+
+## Data Analysis Process
+The Data Analysis process follows these steps:
+1. **Data Exploration & Validation**
+2. **Data Cleaning**
+3. **Data Analysis & Visualization**
+4. **Insights & Recommendations**
+
+---
+
+## Data Exploration & Validation
+The dataset consists of **2000 rows and 8 columns**. Each row represents an individual claim. The key features are:
+- **Claim ID**: Unique identifier.
+- **Time to Close**: Number of days to close the claim.
+- **Claim Amount**: The initial claim requested.
+- **Amount Paid**: The final amount paid to the customer.
+- **Location**: One of the four locations.
+- **Individuals on Claim**: Number of people involved in the claim.
+- **Linked Cases**: Whether the claim is linked to other cases.
+- **Cause**: The reason for food poisoning.
+
+---
+
+## Data Cleaning
+To ensure data integrity, the following steps were performed:
+- Removed any duplicate Claim IDs.
+- Converted `Claim Amount` to numeric format by removing currency symbols.
+- Filled missing values in `Amount Paid` with the median.
+- Standardized `Location` names.
+- Ensured `Cause` values were consistent (e.g., "Meat" and "meat" standardized).
 
 
 ![Food Claim EDA On Python Project Executive Summary (1)](https://github.com/mikeolaniyi/Food-Claim-Exploratory-Data-Analysis-on-Python/assets/120651356/70a1948a-057d-4895-b47c-f440c1418e81)
@@ -490,6 +558,33 @@ Notably, the Recife office location stands out with the highest number of outlie
 **Given these observations, the legal team can prioritize Recife and Sao Luis office locations when formulating solutions to enhance the claims closure process.**
 
 **Additionally, further investigations can be conducted to determine any potential relationships between variables such as claim amount, individuals involved in the claim, and the duration of the claims closure process.**
+
+
+---
+
+## Insights & Conclusion
+- **Recife has the highest number of claims, which take the longest time to close**.
+- **Natal, with the lowest number of claims, resolves cases the fastest**.
+- **Workload imbalance across locations suggests inefficiencies in claim handling**.
+
+---
+
+## Personal Reflection
+This project helped me strengthen my data cleaning, validation, and visualization skills. The key challenges faced included handling missing values effectively and ensuring consistent formatting in categorical data. This experience has reinforced the importance of **exploratory data analysis (EDA) in decision-making**.
+
+---
+
+## Future Enhancements
+- Implement **predictive modeling** to forecast claim closure times based on past data.
+- Automate data cleaning using **Python scripts** for efficiency.
+- Develop a **dashboard in Power BI** for real-time claim tracking.
+
+---
+
+Thank you for reviewing this project! Your feedback is appreciated.
+
+**MANISHA PRIYANKA KAKI**
+
 
 
 
