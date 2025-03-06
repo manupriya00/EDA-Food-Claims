@@ -1,5 +1,5 @@
 # Food Claim Exploratory Data Analysis on Python
-By Michael Michael Jeremiah
+EDA PROJECT BY **MANISHA PRIYANKA**
 ![Food_claim](https://github.com/manupriya00/EDA-Food-Claims/blob/main/EDA%20project%20image.avif)
 
 ### Table of Contents:
